@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+/* 로그인 */
+.login_wrap {
+	position: relative;
+	width: 370px;
+	min-width: 370px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.45);
+	padding: 60px 30px 100px 30px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 500px;
+}
+
+.find_wrap {
+	position: relative;
+	width: 370px;
+	min-width: 370px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.45);
+	padding: 60px 30px 100px 30px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 400px;
+}
+
+.content_wrap {
+	padding: 25px 0 140px;
+	min-height: 787px;
+	box-sizing: border-box;
+}
+
+element.style {
+	margin-bottom: 40px;
+}
+
+.tit01 {
+	display: block;
+	margin-bottom: 56px;
+	font-size: 38px;
+	line-height: 56px;
+	font-family: 'spoqa-regular';
+	font-weight: bold;
+	color: #484848;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+.input-text-outer-wrap.is-login-text .is-text-inner-wrap input,
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="search"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="tel"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="text"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="password"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="number"],
+	#phone {
+	box-sizing: border-box;
+	padding: 13px 16px;
+	font-size: 16px;
+	line-height: normal;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.input-text-outer-wrap .is-text-inner-wrap textarea,
+	.input-text-outer-wrap .is-text-inner-wrap input,
+	.input-text-outer-wrap .is-text-inner-wrap input[type="search"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="tel"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="text"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="password"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="number"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="tel"], #phone {
+	width: 100%;
+	/* height: 100%; */
+	border: 1px solid #dcdbdc;
+	background: none;
+}
+
+input {
+	color: #333;
+	outline: none;
+}
+
+.content_wrap.join .login_box .inp_chk_wrap label {
+	padding-left: 24px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #333;
+}
+
+.check-box.have-text label {
+	position: relative;
+	left: auto;
+	top: auto;
+	text-indent: 0;
+	padding-left: 20px;
+	color: #7d7d7d;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: 80px;
+}
+
+.content_wrap.join .login_box .btn {
+	margin-top: 20px;
+}
+
+.btn:not(.btn-link):not(.btn-circle):hover {
+	outline: none;
+}
+
+.btn:not(.btn-link):not(.btn-circle) {
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-l {
+	padding: 12px 0 11px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.btn-color-type07 {
+	background: rgb(64, 64, 64);
+	color: #fff;
+	display: block;
+	height: 50px;
+	width: 185px;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+/* 회원가임 */
+.join_wrap {
+	position: relative;
+	width: 370px;
+	min-width: 370px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.45);
+	padding: 50px 30px 50px 30px;
+}
+
+.tit01 {
+	display: block;
+	margin-bottom: 56px;
+	font-size: 38px;
+	line-height: 56px;
+	font-weight: bold;
+	color: #484848;
+	letter-spacing: -1px;
+}
+
+strong {
+	font-weight: normal;
+}
+
+.content_wrap.join .tit01 p {
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: normal;
+}
+
+.content_wrap.join .register_form form .input_wrap label {
+	display: block;
+	margin-bottom: 13px;
+}
+
+.content_wrap.join .register_form form .input_wrap .input-text-outer-wrap .is-text-inner-wrap input,
+	#phone {
+	height: 50px;
+	font-size: 15px;
+}
+
+#btnCheckId {
+	background-color: #a5a3a5;
+	color: white;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+}
+
+#btnCheckId:hover {
+	cursor: pointer;
+}
+
+.sub_reset_btn {
+	position: relative;
+	text-align: center;
+}
+
+.btn_register {
+	width: 100%;
+	background-color: rgb(64, 64, 64);
+	color: white;
+	border: 0;
+	height: 50px;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+}
+
+.btn_register {
+	cursor: pointer;
+}
+
+/* 아이디 중복검사 */
+.checkIdContainer {
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+span#unduplicated {
+	color: navy;
+}
+
+span#duplicate {
+	color: red;
+}
+
+.checkIdBtn {
+	width: 30%;
+	background-color: rgb(64, 64, 64);
+	color: white;
+	border: 0;
+	height: 35px;
+	font-size: 15px;
+}
+
+.checkIdBtn:hover {
+	cursor: pointer;
+}
+
+.duplicateIdBtn {
+	background-color: rgb(64, 64, 64);
+	color: white;
+	border: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.duplicateIdBtn:hover {
+	cursor: pointer;
+}
+
+/* 가입 완료 페이지 */
+.title {
+	margin-bottom: 32px;
+	color: black;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+}
+
+.subTitle {
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.join_complete_wrap {
+	position: relative;
+	width: 450px;
+	min-width: 370px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255);
+	padding: 50px 30px 50px 30px;
+	text-align: center;
+}
+
+.homeBtn {
+	width: 100%;
+	text-align: center;
+	margin: 70px 0 0 0;
+}
+
+.goHome {
+	color: rgb(94, 94, 94);
+	font-weight: bolder;
+}
+
+.notice {
+	text-align: center;
+	background-color: white;
+	padding: 10px 0 10px 0;
+}
+
+.findId {
+	color: #538797;
+	font-weight: bolder;
+}
+
+.findBtn {
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+
+.findBtn:hover {
+	font-weight: bolder;
+}
+
+.findWrap {
+	margin-left: 30px;
+}

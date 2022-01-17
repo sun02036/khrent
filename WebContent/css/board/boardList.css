@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+.board-container {
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #fcfcfc;
+	align-items: center;
+	float: right;
+	width: calc(100%);
+}
+
+.board-title {
+	display: block;
+	font-size: 45px;
+	line-height: 56px;
+	font-weight: bold;
+	color: #484848;
+	margin-bottom: 20px;
+	width: 1050px;
+	letter-spacing: -1px;
+}
+
+#tbl-board {
+	width: 1057px;
+	border-collapse: collapse;
+}
+
+.board-tr>th {
+	border-top: 1px solid #4a4a4a;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	color: #434343;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 66px;
+	height: 66px;
+}
+
+.board-tr>td {
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	color: #434343;
+	font-size: 15px;
+	line-height: 58px;
+}
+
+.subject {
+	width: 55%;
+	text-align: left;
+}
+
+.subject a:link {
+	color: black;
+}
+
+.subject a:visited {
+	color: black;
+}
+
+#pagebar {
+	clear: both;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.cPage {
+	display: inline-block;
+	background: #4a4a4a;
+	border: 1px solid #4a4a4a;
+	color: #fff;
+	font-weight: normal;
+	width: 21px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#pagebar a {
+	background: #fff;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 27px;
+	height: 27px;
+	border: 1px solid #e3e3e3;
+	padding: 0;
+	height: 27px;
+	color: #414141;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 27px;
+	vertical-align: middle;
+}
+
+/* 글쓰기 스타일  */
+#writing-container {
+	text-align: end;
+	width: 1050px;
+	margin-bottom: 15px;
+}
+
+#writing {
+	width: 100px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #d1d1d1;
+	border: 1px solid black;
+	text-align: center;
+	color: #000 !important;
+	font-size: 12px;
+}
+
+/* community-view */
+#content {
+	flex-direction: column;
+	align-items: center;
+}
+
+#comment-container {
+	width: 1410px;
+	background-color: white;
+}
+
+table {
+	border-top: 1px solid #4343436b;
+	border-bottom: 1px solid #4343436b;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+tr, td {
+	border-top: 1px solid #4343436b;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	line-height: 58px;
+}
+
+#comment-container {
+	text-align: center;
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.buttons {
+	position: relative;
+	right: -500px;
+}
+
+#tableContent {
+	height: 200px;
+}
+
+#btn-add {
+	background-color: rgb(255, 255, 255);
+	color: white;
+	border-radius: 2px;
+	border: 1px solid lightgray;
+	color: #e97474;
+	width: 90px;
+	height: 30px;
+	font-size: 13px;
+	outline: none;
+	cursor: pointer;
+}
+
+#btn-add:hover {
+	border: 1px solid #e97474;
+	background-color: rgb(255, 255, 255);
+}
+
+#pageBar {
+	margin-top: 70px;
+}

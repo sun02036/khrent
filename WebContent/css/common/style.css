@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/********** 전체 컨테이너 **********/
+
+section#content {
+	background-color: #F5F5F5;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+div#container {
+	background-color: #f4f4f4;
+	width: 100%;
+	height: auto;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+body {
+	margin: 0px;
+	position: relative;
+}
+
+html {
+	visibility: visible;
+	opacity: 1;
+}

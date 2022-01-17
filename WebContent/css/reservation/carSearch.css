@@ -1,0 +1,563 @@
+@charset "UTF-8";
+
+.search_wrap {
+	padding: 40px 0 140px;
+	min-height: 787px;
+	box-sizing: border-box;
+}
+
+.wrap {
+	position: relative;
+	width: 1170px;
+	min-width: 1170px;
+	margin: 0 auto;
+}
+
+.searchList_wrap {
+	float: left;
+	width: 1100px;
+}
+
+.searchTermTxt {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.searchTermTxt .period_txt {
+	color: #de2086;
+}
+
+.searchList_wrap .carType_box {
+	margin-bottom: 16px;
+	padding: 14px 24px;
+	background-color: #f4f6f8;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.searchList_wrap .sort_option {
+	margin-bottom: 32px;
+}
+
+.searchList_wrap .sort_option .search_reservation_txt {
+	float: left;
+	font-size: 14px;
+}
+
+.searchList_wrap .sort_option .search_reservation_txt .carCount {
+	color: #4889f6;
+}
+
+.sort {
+	margin-bottom: 10px;
+}
+
+.sort ul {
+	float: right;
+	margin: 0;
+}
+
+.sort ul li.tit {
+	margin-left: 0;
+	padding-left: 0;
+	color: #999;
+}
+
+.sort ul li {
+	position: relative;
+	float: left;
+	padding-left: 8px;
+	margin-left: 8px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.sort ul li:nth-child(2) {
+	margin-right: 25px;
+}
+
+.sort ul li:last-child {
+	margin-right: 0;
+}
+
+.sort ul li select {
+	font-size: 14px;
+	padding-right: 20px;
+	border: 0;
+	outline: 0;
+	background: url(../imgs/rentking.w/arrow/arrow04.svg) no-repeat 100%
+		center;
+}
+
+.distanceHelp {
+	float: right;
+}
+
+.distanceHelp img {
+	width: 12px;
+	vertical-align: middle;
+}
+
+.distanceHelp span {
+	color: #de2086;
+}
+
+.searchList_wrap .item_sec {
+	position: relative;
+	margin-bottom: 30px;
+	float: left;
+	width: calc(100%/ 2 - 15px);
+	margin-right: 15px;
+	height: 300px;
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	box-sizing: border-box;
+	opacity: 0.8;
+	border: 1px solid #e6e6e6;
+}
+
+.searchList_wrap .item_sec a {
+	display: block;
+	padding: 23px 20px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+.searchList_wrap .item_sec .item_tit {
+	position: relative;
+	display: block;
+	margin-bottom: 12px;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+strong {
+	font-weight: normal;
+}
+
+.searchList_wrap .item_sec .item_tit span {
+	position: absolute;
+	top: 50%;
+	margin-top: -9px;
+	display: inline-block;
+	padding: 0 5px;
+	margin-left: 11px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #fff;
+	background: #909eb1;
+}
+
+.searchList_wrap .item_sec .price {
+	margin-bottom: 5px;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.searchList_wrap .item_sec .price * {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.searchList_wrap .item_sec .goToReservation {
+	display: inline-block;
+	padding-right: 15px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #757575;
+}
+
+.searchList_wrap .item_sec .goToReservation span {
+	color: #de2086;
+	font-size: 16px;
+}
+
+.searchList_wrap .item_sec .goToArrow {
+	line-height: 64px;
+	background: url(../imgs/rentking.w/ico/goToPage_arrow.png) no-repeat
+		left center;
+	background-size: 30px auto;
+}
+
+.searchList_wrap .item_sec .goToArrow span {
+	text-indent: -1000px;
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0;
+}
+
+.searchList_wrap .item_sec img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.searchList_text {
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #F5F5F5; /* Set a background color */
+	color: black; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 5px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+	box-shadow: 0px 0px 16px -5px grey;
+}
+
+#myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.carSearchResult {
+	background-color: white;
+}
+
+select {
+	width: 150px;
+	padding: .8em .5em;
+	border: 1px solid #999;
+	background: url('arrow.jpg') no-repeat 95% 50%;
+	border-radius: 0px;
+}
+
+.sort {
+	margin: 80px 0 0 15px;
+}
+
+#allSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.bfSection {
+	background-color: #ffffff82;
+	height: auto;
+	width: 1417px;
+	margin-bottom: 50px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.topComment {
+	display: flex;
+}
+
+.reserDate {
+	color: #d76a6a;
+}
+
+.reserCount {
+	color: #4889f6;
+}
+
+h2.top {
+	text-align: center;
+	font-size: 50px;
+}
+
+.top_pick {
+	text-align: center;
+	font-size: 22px;
+}
+
+.font_c_red {
+	color: #27ae60 !important;
+	font-family: inherit;
+}
+
+.txtBold {
+	font-weight: normal;
+}
+
+.item-list {
+	float: right;
+	padding-left: 0;
+	width: 980px;
+}
+
+.item-list>li:last-child {
+	margin-bottom: 0;
+}
+
+.item-list>li {
+	height: 270px;
+	padding: 40px 40px 0 20px;
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+
+.item-list .box .carSec {
+	position: relative;
+	float: left;
+	padding-left: 259px;
+	box-sizing: border-box;
+}
+
+.item-list .box .carSec img {
+	width: 256px;
+	position: absolute;
+	margin-top: 20px;
+	left: 0;
+}
+
+div.desc {
+	position: relative;
+    top: 10px;
+    left: 25px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'spoqa-regular', sans-serif;
+	vertical-align: baseline;
+	color: #333;
+	letter-spacing: -0.2px;
+	width: 310px;
+}
+
+.item-list .box .carSec .car_tit {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 20px;
+	line-height: 29px;
+	font-weight: bold;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.item-list .option01 li {
+	position: relative;
+	padding-right: 14px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #4889f6;
+	font-weight: bold;
+}
+
+.item-list .option02 {
+	margin-bottom: 10px;
+}
+
+.item-list .option02 li:last-child {
+	padding-right: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.item-list .option02 li {
+	padding-right: 5px;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+.item-list .option01 li, .item-list .option02 li {
+	float: left;
+}
+
+.item-list .option03 {
+	margin-bottom: 22px;
+}
+
+.item-list .option03 li.type01 {
+	border: 1px solid #ff6c79;
+}
+
+.item-list .option03 li {
+	float: left;
+	margin-right: 4px;
+	width: 48px;
+	height: 18px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.item-list .option03 li.type01 span {
+	color: #ff6c79;
+}
+
+.item-list .option03 li span {
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.item-list .option03 li.type01 {
+	border: 1px solid #ff6c79;
+}
+
+.item-list .option03 li:last-child {
+	margin-right: 0;
+}
+
+.item-list .option04 {
+	font-size: 11px;
+}
+
+.item-list .option05 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.item-list .option05 li {
+	float: left;
+	margin-right: 12px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #8e8e8e;
+}
+
+.item-list .option05 li span {
+	font-size: 13px;
+	line-height: 20px;
+	color: #8e8e8e;
+}
+
+.item-list .option05 li:last-child {
+	margin-right: 0;
+}
+
+.priceArea {
+	position: relative;
+	float: right;
+	width: 295px;
+	height: 100%;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-left: 1px solid #e6e6e6;
+}
+
+.priceArea .totalPrice {
+	height: 51px;
+	margin-bottom: 23px;
+	text-align: right;
+}
+
+.priceArea .totalPrice strong {
+	float: left;
+	margin-bottom: 3px;
+	font-size: 20px;
+	line-height: 29px;
+	font-family: 'spoqa-light';
+}
+
+.priceArea .totalPrice span {
+	display: inline-block;
+	margin-bottom: 3px;
+	font-size: 20px;
+	line-height: 29px;
+	font-weight: bold;
+}
+
+.priceArea dl {
+	margin-bottom: 15px;
+}
+
+.priceArea dl dt {
+	float: left;
+	font-size: 13px;
+}
+
+.priceArea dl dd {
+	float: right;
+	font-size: 13px;
+}
+
+.btn:not(.btn-link):not(.btn-circle) {
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+	margin-top: 60px;
+	background-color: #404040;
+	padding: 19px
+}
+
+.priceArea>a {
+/* 	position: absolute; */
+	bottom: 0;
+	width: calc(96% - 5px);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	color: #fff;
+	letter-spacing: -0.2px;
+}
+
+.btn-l {
+	padding: 12px 0 11px;
+	height: 10px;
+	font-size: 18px;
+	line-height: 11px;
+}
+
+.btn {
+	width: 100%;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	align-items: flex-end;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.option01 {
+	width: 300px;
+}
+
+.select_section {
+	width: 700px;
+	margin: 50px 0 10px 0;
+	font-size: 20px;
+}

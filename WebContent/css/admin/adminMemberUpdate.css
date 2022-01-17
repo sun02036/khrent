@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.mypageCont {
+	float: right;
+	width: calc(90% - 200px);
+	height: 930px;
+	margin-top: 50px;
+}
+
+strong.tit01 {
+	display: block;
+	margin-bottom: 56px;
+	font-size: 38px;
+	line-height: 56px;
+	font-weight: bold;
+	color: #484848;
+	letter-spacing: -1px;
+	border-bottom: 1px solid lightgrey;
+	padding: 0 0 10px 10px;
+	text-align: left;
+	width: 1300px;
+}
+
+.mypageCont .mypageDesc2 .tit04 {
+	float: left;
+	margin-bottom: 0;
+}
+
+.tit04 {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.mypageCont .mypageDesc2 .topArea {
+	padding-bottom: 20px;
+	margin-bottom: 35px;
+}
+
+.mypageCont .mypageDesc2 {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+dl {
+	position: relative;
+	padding-left: 150px;
+	margin-bottom: 25px;
+}
+
+dl dd .input-text-outer-wrap.have-right-section .input-text-outer-wrap__right-section a
+	{
+	padding: 11px 0;
+	background-color: rgb(94, 94, 94);
+	color: white;
+}
+
+.input-text-outer-wrap.have-right-section .input-text-outer-wrap__right-section button,
+	.input-text-outer-wrap.have-right-section .input-text-outer-wrap__right-section a
+	{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 13px 0;
+	font-size: 15px;
+	line-height: normal;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-pwd-pop, .btn-cp-modify {
+	width: 150px;
+	min-width: 75px;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 11px 0;
+	background-color: rgb(94, 94, 94);
+	color: white;
+	outline: none;
+}
+
+.input-text-outer-wrap.is-login-text .is-text-inner-wrap input,
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="search"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="tel"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="text"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="password"],
+	.input-text-outer-wrap.is-login-text .is-text-inner-wrap input[type="number"]
+	{
+	box-sizing: border-box;
+	padding: 13px 16px;
+	font-size: 16px;
+	line-height: normal;
+	background-color: #fff;
+}
+
+.input-text-outer-wrap .is-text-inner-wrap textarea,
+	.input-text-outer-wrap .is-text-inner-wrap input,
+	.input-text-outer-wrap .is-text-inner-wrap input[type="search"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="tel"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="text"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="password"],
+	.input-text-outer-wrap .is-text-inner-wrap input[type="number"] {
+	width: 100%;
+	/* height: 100%; */
+	border: 1px solid #dcdbdc;
+	background: none;
+}
+
+dl {
+	position: relative;
+	padding-left: 150px;
+	margin-bottom: 25px;
+}
+
+dl dt {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+}
+
+.input-text-outer-wrap.have-right-section {
+	padding-right: 110px;
+}
+
+.input-text-outer-wrap {
+	position: relative;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.info_content {
+	margin-bottom: 80px;
+}
+
+.adminMemberUpdateBtn {
+	width: 400px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.license_type {
+	margin-right: 40px;
+}

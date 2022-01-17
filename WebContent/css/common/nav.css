@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* nav 시작 */
+.hidden {
+	opacity: 0;
+}
+
+section.searchSection {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+section.searchSection .searchLayout {
+	background-color: #538797;
+	width: 100%;
+	min-width: 1200px;
+	height: 67px;
+	padding: 10px;
+}
+
+section.searchSection l-ct {
+	margin-top: 10px;
+}
+
+section.searchSection .searchLayout .searchLine {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+section.searchSection .searchLayout .searchBorder {
+	display: flex;
+	justify-content: flex-end;
+}
+
+section.searchSection .searchLayout .searchBorder hr {
+	width: 910px;
+	height: 1px;
+	margin: 15px 0;
+	padding: 0;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+section.searchSection .searchLayout .searchLabel {
+	color: #fff;
+	line-height: 45px;
+	width: 85px;
+	text-align: center;
+}
+
+section.searchSection .searchLayout .searchContent {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 10px;
+}
+
+section.searchSection .searchLayout .searchCar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
+}
+
+section.searchSection .searchLayout .searchRadio input {
+	display: none;
+}
+
+section.searchSection .searchLayout .searchRadio input:checked+span {
+	background-color: rgb(64, 64, 64);
+	color: #fff;
+}
+
+section.searchSection .searchButton {
+	background-color: rgb(64, 64, 64);
+	border-color: rgb(64, 64, 64);
+	width: 225px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+section .searchButton {
+	cursor: pointer;
+}
+
+section.searchSection .searchLayout .searchRadio span {
+	display: inline-block;
+	height: 57px;
+	line-height: 57px;
+	min-width: 86px;
+	padding: 0 10px;
+	color: #69666a;
+	font-size: 17px;
+	font-weight: 500;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hasNavDatepicker {
+	display: inline-block;
+	height: 48px;
+	width: 450px;
+	line-height: 57px;
+	min-width: 86px;
+	padding: 0 10px;
+	color: #69666a;
+	font-size: 17px;
+	font-weight: 500;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+	border: 0;
+}
+
+/* nav 끝 */

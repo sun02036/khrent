@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/********** footer **********/
+
+footer {
+	background-color: #4a4a4a;
+	clear: both;
+	height: 265px;
+	color: white;
+	font-size: 12px;
+	display: block;
+}
+ul.clearfix {
+	padding: 0px;
+}
+
+footer * {
+    color: #999;
+}
+.footer_wrap {
+	position: relative;
+    width: 1170px;
+    min-width: 1170px;
+    margin: 0 auto;
+}
+footer .top_footer {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+footer .top_footer .link_wrap {
+    position: relative;
+    float: left;
+    width: 700px;
+    padding:38px 0px;
+    left: -79px;
+}
+ol, ul {
+    list-style: none;
+}
+footer .top_footer .link_wrap ul li {
+    float: left;
+    margin-right: 33px;
+}
+footer .top_footer .link_wrap ul li a {
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'spoqa-light';
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .top_footer .contact_wrap {
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 103px;
+    left: -50px;
+}
+footer .top_footer .contact_wrap .tel_wrap {
+    width: 35%;
+    float: left;
+    padding-top: 61px;
+}
+
+footer .top_footer .contact_wrap .tel_wrap img {
+    display: inline-block;
+    position: relative;
+    width: 52px;
+}
+footer .top_footer .contact_wrap .tel_wrap .title_text {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: -46px;
+    left: 62.5px;
+    margin-top: -1px;
+}
+footer .top_footer .contact_wrap .tel_wrap .sub_text {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-weight: bolder;
+    top: -61px;
+    left: 62.5px;
+    color: #fff;
+}
+footer .top_footer .contact_wrap .hour_wrap {
+    width: auto;
+    float: left;
+    padding-top: 61px;
+    padding-left: 27px;
+}
+
+footer .top_footer .contact_wrap .hour_wrap img {
+    position: relative;
+    float: left;
+    width: 52px;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap {
+    position: relative;
+    float: left;
+    top: 0px;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl {
+    display: block;
+    position: relative;
+    top: -3px;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl dt, .footer_wrap .top_footer .contact_wrap .hour_wrap .text_wrap dl dd {
+    display: inline-block;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl dt {
+    margin-left: 10px;
+    font-size: 14px;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl:first-child dd {
+    margin-left: 16px;
+}
+
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl dd {
+    font-size: 17px;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 16px;
+}
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl:last-child {
+    margin-top: 2px;
+}
+
+footer .top_footer .contact_wrap .hour_wrap .text_wrap dl {
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+}
+footer .bottom_footer {
+    padding-bottom: 36px;
+}
+footer .footer_info {
+    position: relative;
+    left: -79px;
+}
+footer .footer_info .info {
+    margin-bottom: 14px;
+}
+footer .footer_info * {
+    font-size: 12px;
+    line-height: 22px;
+}
+footer .footer_info .copy {
+    display: block;
+    margin-bottom: 20px;
+}
+footer .footer_info .social_media {
+    display: block;
+    position: relative;
+    top: -54px;
+    right: 104px;
+    float: right;
+    margin-top: -30px;
+}
+
+
+

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.serviceCenter_lnb {
+	float: left;
+	margin-top: 50px;
+	width: 166px;
+	background-color: rgb(252, 252, 252);
+	height: 416px;
+	padding: 20px;
+	margin-right: 24px;
+}
+
+.serviceCenter_lnb ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.serviceCenter_lnb ul li {
+	display: block;
+	font-size: 16px;
+	line-height: 62px;
+	width: 100px;
+	color: black;
+}
+
+.serviceCenter_lnb ul li:hover {
+	font-weight: bolder;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:active {
+	color: #00000042;
+}

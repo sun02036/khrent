@@ -1,0 +1,764 @@
+@charset "UTF-8";
+
+#map2 {
+	width: 385px;
+	height: 385px;
+}
+
+.content_wrap {
+	min-height: 787px;
+	box-sizing: border-box;
+}
+
+.wrap {
+	position: relative;
+	width: 1210px;
+	min-width: 1170px;
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+input {
+	color: #333;
+	outline: none;
+}
+
+.reservation_sec {
+	padding-bottom: 48px;
+	margin-bottom: 32px;
+	/* border-bottom: 1px solid #e6e6e6; */
+}
+
+.sec2 {
+	position: relative;
+	top: 50px;
+}
+
+.reservation_sec .reservation_info {
+	position: relative;
+	float: left;
+	width: calc(100% - 430px);
+	padding-left: 300px;
+	box-sizing: border-box;
+}
+
+.reservation_sec .reservation_info img {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 350px;
+	/* height: 187px; */
+	/* object-fit: cover; */
+}
+
+.reservation_info .reserve_notice {
+	position: absolute;
+	left: 0;
+	width: 250px;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 7px;
+	top: 232px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0px 20px 0px 24px;
+	justify-content: start;
+	margin-top: 50px;
+}
+
+.reserve_notice .notice {
+	font-size: 12px;
+	font-weight: 600;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.info_list {
+	margin-left: 40px;
+	width: 450px;
+	margin-top: 30px;
+}
+
+.btn:not(.btn-link):not(.btn-circle) {
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+	margin: 0;
+}
+
+.btn-l {
+	padding: 12px 0 11px;
+	height: 50 px;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.notice .color {
+	font-size: 14px;
+	color: #2980b9;
+}
+
+.reservation_sec .reservation_info .notice li {
+	position: relative;
+	padding-left: 23px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	line-height: 19px;
+	color: #969696;
+}
+
+.reservation_sec .reservation_info .icoList .icon span {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.btn:not(.btn-link):not(.btn-circle) span {
+	position: relative;
+	top: -2px;
+	margin-left: 3px;
+}
+
+.btn-color-type01 * {
+	color: #fff;
+}
+
+.info_list>strong {
+	display: block;
+	margin-bottom: 4px;
+	font-size: 32px;
+	line-height: 47px;
+}
+
+strong {
+	font-weight: normal;
+}
+
+.reservation_sec .reservation_info .option01 {
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.carOption {
+	margin-left: 38px;
+	margin-right: 20px;
+}
+
+.reservation_sec .reservation_info .option01 li {
+	float: left;
+	position: relative;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.reservation_sec .reservation_info>p {
+	margin-bottom: 16px;
+	font-size: 13px;
+	line-height: 18px;
+	margin-left: 40px;
+}
+
+.reservation_sec .reservation_info .icoList {
+	padding-bottom: 16px;
+	margin-bottom: 28px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.reservation_sec .reservation_info .icoList .icon {
+	position: relative;
+	float: left;
+	margin-right: 28px;
+	padding-top: 44px;
+}
+
+.leftSec .tit03 {
+	margin-bottom: 26px;
+}
+
+.tit03 {
+	display: inline-block;
+	font-size: 22px;
+	line-height: 33px;
+	font-weight: bold;
+}
+
+.leftSec .reservation_sec .modalPop {
+	display: inline-block;
+	margin-left: 12px;
+	font-size: 13px;
+	line-height: 33px;
+	vertical-align: top;
+}
+
+.map_area {
+	float: right;
+	width: 385px;
+}
+
+.reservation_sec .map_area .map_info {
+	padding: 12px 16px 10px;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+}
+
+.reservation_sec .map_area .map_info .location {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.reservation_sec .map_area .map_info .location span {
+	font-weight: normal;
+}
+
+.reservation_sec .map_area .map_info p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.reservation_sec .map_area .map_info p.etc {
+	color: #d38d5a !important;
+	font-weight: bolder;
+}
+
+.reservation_sec .map_area .map_info p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.point {
+	color: #ff4757 !important;
+}
+
+.point {
+	color: #4889f6;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.leftSec .reservation_sec .modalPop img {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: sub;
+}
+
+.leftSec .reservation_sec .insuranceTable {
+	margin-bottom: 48px;
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption {
+	display: none;
+}
+
+.leftSec {
+	width: 740px;
+}
+
+.leftSec .reservation_sec .insuranceTable thead th {
+	padding: 10px 0;
+	background-color: #fafafa;
+	font-weight: normal;
+	width: 145px;
+}
+
+.leftSec .reservation_sec .insuranceTable tbody tr {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.leftSec .reservation_sec .insuranceTable tbody th {
+	text-align: left;
+	padding-left: 40px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.leftSec .reservation_sec .insuranceTable tbody th input {
+	position: absolute;
+	overflow: hidden;
+}
+
+.leftSec .reservation_sec input, .leftSec .reservation_sec select {
+	font-size: 14px;
+}
+
+.leftSec .reservation_sec .insuranceTable tbody th label {
+	position: relative;
+	padding-left: 25px;
+}
+
+.leftSec .reservation_sec .insuranceTable tbody td {
+	padding: 13px 0;
+	text-align: center;
+}
+
+.tit04 {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.agreeBox {
+	position: relative;
+    left: 26px;
+}
+
+.leftSec .reservation_sec .agreeBox .check-box {
+	width: auto;
+	height: auto;
+}
+
+.check-box {
+	position: relative;
+	display: inline-block;
+}
+
+.leftSec .reservation_sec .licenseArea .firstDriver dl dt {
+	margin: 20px 0 13px;
+}
+
+.firstDriver dl {
+	margin-left: 30px;
+}
+
+.leftSec .reservation_sec .licenseArea .firstDriver dl dd span {
+	display: block;
+	padding: 13px 16px;
+	width: 364px;
+	height: 50px;
+	border: 1px solid #dcdbdc;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.leftSec .reservation_sec .licenseArea .firstDriver dl dd span input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.leftSec .reservation_sec input, .leftSec .reservation_sec select {
+	font-size: 14px;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm.active {
+	display: block;
+}
+
+.leftSec .reservation_sec .licenseArea .license, .leftSec .reservation_sec .licenseArea .licenseForm
+	{
+	margin-bottom: 24px;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .check-box {
+	margin-bottom: 32px;
+	width: auto;
+	height: auto;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .check-box label {
+	position: relative;
+	padding-left: 28px;
+	text-indent: 0;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense div {
+	margin-bottom: 20px;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType .tit04
+	{
+	display: inline-block;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense div {
+	margin-bottom: 20px;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType input
+	{
+	position: absolute;
+	left: -9999em;
+	overflow: hidden;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType input:checked+label
+	{
+	border: 1px solid #2980b9;
+	background-color: #fff;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType label
+	{
+	float: left;
+	width: 300px;
+	position: relative;
+	display: block;
+	margin-bottom: 13px;
+	padding: 13px 0;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #e6e6e6;
+	background-color: #fafafa;
+	color: #666;
+}
+
+.check-box label {
+	/* position: absolute; */
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	/* display: inline-block; */
+	width: 100%;
+	height: auto;
+	text-indent: -10000em;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: 0 center;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType input:checked+label span
+	{
+	color: #2980b9;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseType label span
+	{
+	position: relative;
+	padding-left: 25px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.licenseNumber dl dt label {
+	display: inline-block;
+	margin-bottom: 13px;
+}
+
+.updateDate dl dt label {
+	display: inline-block;
+	margin-bottom: 13px;
+}
+
+.leftSec .reservation_sec .licenseArea .licenseForm .driverLicense .licenseNumber dd .licenseNumRegion
+	{
+	position: relative;
+	display: inline-block;
+	width: 236px;
+	height: 50px;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.licenseNumInput {
+	display: inline-block;
+	padding: 18px 16px 13px;
+	margin-left: 12px;
+	width: 330px;
+	border: 1px solid #dcdbdc;
+	box-sizing: border-box;
+	vertical-align: top;
+	border: 1px solid #dcdbdc;
+}
+
+.licenseNumInput input {
+	border: 0;
+}
+
+.leftSec .reservation_sec .licenseArea .corporateArea dl dt {
+	margin: 20px 0 13px;
+}
+
+.leftSec .reservation_sec .licenseArea .corporateArea dl dd span {
+	display: block;
+	padding: 13px 16px;
+	width: 364px;
+	height: 50px;
+	border: 1px solid #dcdbdc;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.leftSec .reservation_sec .licenseArea .corporateArea dl dd span input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.licenseRegisterBtn {
+	display: inline-block;
+	width: 98px;
+	height: 30px;
+	font-size: 12px;
+	background-color: white;
+	line-height: 26px;
+	color: #2980b9;
+	text-align: center;
+	border: 1px solid #2980b9;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+.leftSec .reservation_sec .paymentSelect input {
+	position: absolute;
+	left: -9999em;
+	overflow: hidden;
+}
+
+.leftSec .reservation_sec .paymentSelect input:checked+label {
+	border: 1px solid #614aff;
+	background-color: #fff;
+}
+
+.leftSec .reservation_sec .paymentSelect label {
+	float: left;
+	width: calc(100%/ 4);
+	height: 52px;
+	position: relative;
+	display: block;
+	margin-bottom: 13px;
+	padding: 13px 0;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #e6e6e6;
+	background-color: #fafafa;
+	color: #666;
+}
+
+.leftSec .reservation_sec .paymentSelect input:checked+label span {
+	color: #2980b9;
+}
+
+.leftSec .reservation_sec .paymentSelect label span {
+	position: relative;
+	padding-left: 25px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.leftSec .reservation_sec:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.leftSec .reservation_sec .tit03 span {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+	margin-top: 12px;
+}
+
+.leftSec .reservation_sec .tableWrap {
+	margin-bottom: 40px;
+}
+
+.leftSec .reservation_sec .tableWrap table {
+	float: left;
+	width: calc(100%/ 2 - 8px);
+	margin-right: 16px;
+}
+
+.leftSec .reservation_sec .tableWrap table thead tr:first-child th {
+	padding: 11px 0;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	background-color: #646a74;
+	font-weight: bold;
+}
+
+.leftSec .reservation_sec .tableWrap table thead tr th, .leftSec .reservation_sec .tableWrap table tbody tr th
+	{
+	background-color: #fafafa;
+	font-weight: normal;
+}
+
+.leftSec .reservation_sec .tableWrap table thead tr th, .leftSec .reservation_sec .tableWrap table tbody tr th,
+	.leftSec .reservation_sec .tableWrap table tbody tr td {
+	padding: 11px 0;
+}
+
+.leftSec .reservation_sec .tableWrap table thead tr>*, .leftSec .reservation_sec .tableWrap table tbody tr>*
+	{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.leftSec .reservation_sec .tableWrap table tbody tr th, .leftSec .reservation_sec .tableWrap table tbody tr td
+	{
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.leftSec .reservation_sec>em {
+	display: block;
+	margin-bottom: 17px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.leftSec .reservation_sec .caution {
+	margin-bottom: 24px;
+}
+
+.leftSec .reservation_sec .caution li {
+	position: relative;
+	margin-bottom: 9px;
+	padding-left: 13px;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+/* 오른쪽 메뉴 */
+.rightSec {
+	right: 0;
+	top: 530px;
+	float: right;
+	padding: 30px 24px;
+	width: 336px;
+	height: 580px;
+	border-radius: 2px;
+	box-shadow: 0 2px 30px 0 rgb(0 0 0/ 8%);
+	background-color: #fff;
+	z-index: 10;
+}
+
+.rightSec h2 {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.rightSec>span {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 15px;
+	color: #000;
+}
+
+.rightSec>p {
+	padding-bottom: 24px;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 16px;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.rightSec>p em {
+	color: #2980b9;
+	font-style: normal;
+}
+
+.rightSec dl {
+	overflow: hidden;
+	margin-bottom: 14px;
+}
+
+.rightSec dl dt {
+	float: left;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.rightSec dl dd {
+	float: right;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: right;
+}
+
+.rightSec dl.divideLine {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.rightSec strong {
+	font-weight: bold;
+}
+
+.btn-l {
+	padding: 12px 0 11px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 27px;
+	background-color: #4a4a4a;
+}
+
+.btn {
+	width: 100%;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	background-color: #4a4a4a;
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	align-items: flex-end;
+}
+
+.alertWrap {
+	text-align: left;
+	width: 200px;
+	margin-top: 20px;
+}
+
+a {
+	color: #4a4a4a;
+}
+
+ul.notice {
+	padding-left: 15px;
+}
+
+#frmDomestic {
+	display: flex; 
+	flex-direction: column;
+	margin-left: 30px;
+}

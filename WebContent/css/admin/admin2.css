@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+/* 상단 4개 */
+.single_element .quick_activity_wrap {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+}
+
+.single_element .single_quick_activity {
+	background-color: #fff;
+	border-radius: 10px;
+	width: 300px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	padding: 43px 30px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.single_element .single_quick_activity .icon {
+	width: 60px;
+	height: 60px;
+	flex-basis: 60px;
+	text-align: right;
+}
+
+.single_element .single_quick_activity .icon img {
+	width: 100%;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+.single_element .single_quick_activity .count_content {
+	margin-left: 30px;
+	flex-basis: 50%;
+	text-align: left;
+}
+
+.single_element .single_quick_activity h3 {
+	font-size: 45px;
+	margin-bottom: 0;
+	font-weight: 600;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	color: #2E4765;
+	margin-bottom: 0px;
+	line-height: 1;
+}
+
+.single_element .single_quick_activity p {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-size: 18px;
+	font-weight: 500;
+	color: #B2B5C0;
+	line-height: 1;
+}
+
+/* 회원 가입 목록 */
+.col-xl-7 {
+	max-width: 50%;
+	width: 745px;
+}
+
+.white_box {
+	padding: 30px;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.card_height_100 {
+	height: calc(100% - 30px);
+}
+
+.white_box {
+	background-color: #fff;
+	padding: 17px;
+}
+
+.list_header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	align-items: center;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.align-items-center {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+
+.main-title h3 {
+	font-weight: 600;
+	font-size: 22px;
+	color: #2E4765;
+	line-height: 1.2;
+}
+
+.white_box h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 16px;
+	margin-bottom: 22px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.serach_field-area2 {
+	width: 480px;
+	position: relative;
+}
+
+.serach_field-area2 .search_inner input {
+	color: #000;
+	font-size: 17px;
+	height: 55px;
+	width: 100%;
+	padding-left: 82px;
+	border: 0;
+	padding-right: 15px;
+	border-bottom: 1px solid #F4F7FC;
+	background: #F5F7FD;
+	border-radius: 30px;
+}
+
+.serach_field-area2 .search_inner button {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: transparent;
+	font-size: 12px;
+	border: 0;
+	padding-left: 40px;
+	padding-right: 11px;
+}
+
+.serach_field-area2 .search_inner button i {
+	font-size: 14px;
+	color: #818E94;
+}
+
+[class^="ti-"], [class*=" ti-"] {
+	font-family: 'themify';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+	zoom: 1;
+}
+
+.QA_section .QA_table .table {
+	margin-bottom: 0 !important;
+}
+
+.QA_section .QA_table .table thead th:last-child {
+	border-radius: 0px 30px 30px 0px;
+}
+
+.QA_section .QA_table .table {
+	background: #FFFFFF;
+	border-radius: 10px;
+	margin-bottom: 35px;
+	padding-top: 20px;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 0 solid transparent;
+}
+
+table.dataTable {
+	width: 100% !important;
+	margin: 0 auto;
+	clear: both;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+table.dataTable, table.dataTable th, table.dataTable td {
+	box-sizing: content-box;
+}
+
+table.dataTable {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+}
+
+.QA_section .QA_table .table thead th:first-child {
+	border-radius: 30px 0px 0px 30px;
+}
+
+.QA_section .QA_table .table thead th {
+	border-bottom: 0 solid transparent;
+	background-color: #fff;
+	padding: 17px 30px;
+	line-height: 16px;
+	border: 0 px solid transparent;
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFFFFF;
+	white-space: nowrap;
+	text-transform: capitalize;
+	font-family: "Rajdhani", sans-serif;
+	border: 0;
+	background: rgb(72 72 72);
+}
+
+.QA_section .QA_table thead th {
+	white-space: nowrap;
+	border-bottom: 1px solid rgba(130, 139, 178, 0.3) !important;
+}
+
+table.dataTable thead .sorting_asc {
+	background-image: url(../images/sort_asc.png);
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc,
+	table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled,
+	table.dataTable thead .sorting_desc_disabled {
+	cursor: pointer;
+	*cursor: hand;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.QA_section .QA_table tbody tr {
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+table.dataTable tbody tr {
+	background-color: #ffffff;
+}
+
+.QA_section .QA_table tbody th, .QA_section .QA_table tbody td {
+	color: #7e7172;
+	font-size: 14px;
+	text-align: center;
+	color: #828BB2;
+	font-weight: 400;
+	border-bottom: 1 px solid rgba(130, 139, 178, 0.1);
+}
+
+.QA_section .QA_table tbody th {
+	font-size: 14px;
+	color: #415094;
+	font-weight: 400 !important;
+}
+
+.QA_section .QA_table th, .QA_section .QA_table td {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.9;
+	color: #222222;
+	padding: 16px 30px;
+	vertical-align: middle;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+	vertical-align: middle;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 16px 25px;
+	font-size: 12px;
+	color: #888;
+	font-weight: 300;
+}
+
+table.dataTable, table.dataTable th, table.dataTable td {
+	box-sizing: content-box;
+}
+
+.table td, .table th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 0 !important;
+}
+
+.table td, .table th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+
+.align-items-center {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.mr_20 {
+	margin-right: 20px;
+}
+
+.QA_section .QA_table tbody img {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+.student_list_img img {
+	width: 50px;
+	height: 50 px;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+p {
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0px;
+	color: #828BB2;
+	font-weight: 300;
+}
+
+.main-title {
+	margin: 20px 0 20px 0;
+}
+
+.tables {
+	display: flex;
+	justify-content: space-between;
+}

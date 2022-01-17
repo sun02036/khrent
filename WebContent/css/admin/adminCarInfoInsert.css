@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+.mypageCont {
+	float: right;
+	width: calc(90% - 200px);
+	height: 930px;
+	margin-top: 50px;
+}
+
+#tbl-board-view {
+	height: 600px;
+}
+
+strong.tit01 {
+	display: block;
+	margin-bottom: 56px;
+	font-size: 38px;
+	line-height: 56px;
+	font-weight: bold;
+	color: #484848;
+	letter-spacing: -1px;
+	border-bottom: 1px solid lightgrey;
+	padding: 0 0 10px 10px;
+	text-align: left;
+	width: 1300px;
+}
+
+.carInsertInput {
+	width: 100%;
+	border: 1px solid #dcdbdc;
+	background: none;
+	font-size: 16px;
+	line-height: normal;
+	background-color: #fff;
+	padding-left: 20px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.carInsertSelect {
+	border: 1px solid #dcdbdc;
+	background: none;
+	font-size: 16px;
+	width: 66px;
+	text-align: center;
+	line-height: normal;
+	background-color: #fff;
+	height: 50px;
+	font-size: 15px;
+}
+
+.carInfoBtn {
+	width: 150px;
+	min-width: 75px;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 11px 0;
+	background-color: rgb(94, 94, 94);
+	color: white;
+	margin: 60px 0 20px 0;
+	outline: none;
+}
+
+input#file-upload-button {
+	background-color: rgb(94, 94, 94);
+}
+
+.carInfoTr {
+	margin-bottom: 10px;
+}
+
+.carInfoTr>th {
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+	font-size: 16px;
+	line-height: 20px;
+	padding-right: 10px;
+	color: #999;
+	margin-right: 5px;
+}
+
+.optionSelect {
+	font-size: 15px;
+	border: 1px solid lightgray;
+	background-color: white;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+}
+
+.optionSelect>label {
+	margin-right: 10px;
+}
+
+.optionSelect>hr {
+	margin: 10px 0 10px 0;
+}
+
+.tit04 { 
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+}

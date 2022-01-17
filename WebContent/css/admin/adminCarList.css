@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*관리자 페이지 : 회원관리 */
+h2 {
+	font-size: 35px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgray;
+}
+
+section#carList-container {
+	text-align: center;
+	position: relative;
+	left: var(- -page-header-width);
+	width: calc(80%);
+	min-height: 100vh;
+	margin: 0;
+	margin-left: 300px;
+	padding: 30px;
+	color: var(- -page-content-txtColor);
+}
+
+section#carList-container table#tbl-car {
+	width: 100%;
+	margin: 10px 0 30px 0;
+	border-collapse: collapse;
+}
+
+table#tbl-car th, table#tbl-car td {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+section#carList-container div#neck-container {
+	padding: 0px;
+	height: 50px;
+	background-color: rgba(0, 188, 212, 0.3);
+}
+
+section#carList-container div#search-container {
+	margin: 0 0 10px 0;
+	padding: 3px;
+	padding-top: 19px;
+	font-weight: bolder;
+}
+
+/* 페이징 : 페이지당 회원수 */
+section#carList-container div#numPerPage-container {
+	float: right;
+	margin-top: 10px;
+}
+
+section#carList-container form#numPerPageFrm {
+	display: inline;
+}
+
+/*페이징 : 페이지바 */
+section#carList-container div#pageBar {
+	margin-top: 10px;
+	text-align: center;
+	background-color: rgb(102 102 102/ 30%);
+	padding: 3px 0 3px 0;
+}
+
+section#carList-container div#pageBar span.cPage {
+	color: #4a4a4a;
+	margin-right: 5px;
+}
+
+section#carList-container div#pageBar a {
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+section#carList-container div#pageBar a:hover {
+	text-decoration: underline;
+}
+
+div#search-container {
+	margin: 0 0 10px 0;
+	padding: 3px;
+	background-color: rgb(102 102 102/ 30%);
+}
+
+#carList-container {
+	width: 85%;
+	margin-left: 300px;
+}
+
+input {
+	border: 0;
+}
+
+select {
+	border: 0;
+}
+
+button {
+	background-color: rgb(94, 94, 94);
+	color: white;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+}
+
+.adminCarUpdateBtn {
+	background-color: rgb(255, 255, 255);
+	color: #4a4a4a;
+	border: 1px solid lightgray;
+	font-size: 13px;
+	outline: none;
+}
+
+.adminCarUpdateBtn:hover {
+	cursor: pointer;
+	border: 1px solid #4a4a4a;
+}
+
+section#carList-container div#pageBar span.cPage {
+	color: #4a4a4a;
+	margin-right: 5px;
+}
+
+#pagebar>a {
+	color: #4a4a4a;
+}
+
+.adminMemberUpdateBtn {
+	background-color: rgb(41, 128, 185);
+	color: white;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+}
+
+#tbl-car thead th {
+	background-color: rgb(72, 72, 72);
+	color: white;
+	font-weight: normal;
+}
+
+#tbl-car thead th:first-child {
+	border-radius: 30px 0px 0px 0px;
+}
+
+#tbl-car thead th:last-child {
+	border-radius: 0px 30px 0px 0px;
+}
+
+.returnOk {
+	color: #2980b9;
+	font-size: 15px;
+	font-weight: bolder;
+}

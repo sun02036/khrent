@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+.mypageCont .mypageDesc {
+	position: relative;
+	margin-top: 35px;
+	padding: 25px 26px 32px 20px;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	height: 550px !important;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.mypageCont .mypageDesc .tit06 {
+	margin-bottom: 13px;
+}
+
+.tit06 {
+	display: block;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.mypageCont .mypageDesc .tit06 span {
+	display: inline-block;
+	margin-left: 9px;
+	font-size: 14px;
+	line-height: 36px;
+	font-weight: normal;
+}
+
+.mypageCont .mypageDesc .tit06 em.reserved {
+	color: #fff;
+	background-color: #538797;
+}
+
+.mypageCont .mypageDesc .tit06 em {
+	float: right;
+	padding: 6px 12px 5px;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 19px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.mypageCont .mypageDesc>p {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.point {
+	color: #ff4757 !important;
+}
+
+.point {
+	color: #4889f6;
+}
+
+.mypageCont .mypageDesc>p {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec {
+	padding-top: 27px;
+	margin-top: 24px;
+	border-top: 1px solid #e6e6e6;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_info {
+	width: 500px;
+	float: left;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_info dl
+	{
+	position: relative;
+	padding-left: 92px;
+	margin-bottom: 15px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_info dl dt
+	{
+	position: absolute;
+	left: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_info dl dd
+	{
+	position: relative;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment .btnGroup
+	{
+	margin: 20px 0 10px 0;
+}
+
+.mypageCont .btnGroup {
+	margin-top: 32px;
+	text-align: center;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment .btnPayDetail
+	{
+	padding: 4px 20px 4px 20px;
+	font-size: 13px;
+	border: 1px solid #d1d1d6;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment .btnReceipt
+	{
+	padding: 4px 35px 4px 35px;
+	font-size: 13px;
+	border: 1px solid #d1d1d6;
+}
+
+.mypageCont .btnGroup a {
+	width: 160px;
+	margin-right: 10px;
+}
+
+.mypageCont .btnGroup a:last-child {
+	margin-right: 0;
+}
+
+button {
+	border: 0;
+	background: none;
+	padding: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .cancel {
+	position: absolute;
+	right: 0px;
+	bottom: 2px;
+	width: 160px;
+	border-radius: 2px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .cancel-btn {
+	background-color: #d1d1d6;
+	color: white;
+	padding: 16px;
+	font-size: 17px;
+	border: none;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment
+	{
+	width: 280px;
+	float: right;
+	background-color: #f7f7f7;
+	padding: 15px;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment dl dd.payAmount
+	{
+	font-size: 16px;
+	font-weight: bold;
+	color: #d38d5a;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment dl dd
+	{
+	position: relative;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+}
+
+.mypageCont .mypageDesc .mypageReservation_sec .mypageReservation_infoPayment dl
+	{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.change {
+	background-color: #d38d5a;
+	color: white;
+	box-shadow: 0 2px 5px rgb(0 0 0/ 16%), 0 2px 10px rgb(0 0 0/ 12%);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	font-size: 13px;
+	outline: none;
+	cursor: pointer;
+}
+
+.reviewOk {
+	color: #d38d5a;
+	font-weight: bolder;
+}
