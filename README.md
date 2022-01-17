@@ -1,5 +1,3 @@
-# khrent
-
 # Project Title / 프로젝트 제목
 **KH렌트** (렌트카 예약 사이트)
 
